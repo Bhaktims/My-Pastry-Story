@@ -1,0 +1,253 @@
+body{
+	
+	 background-color:#feedd5;
+}
+
+
+.box{
+	
+	border-style:solid;
+	box-sizing:border-box;
+	height:100px;
+}
+
+*{	
+	font-family:'Abril Fatface', cursive;
+}
+.cname{
+	
+	height:200px;
+	background-color:#F7D283;
+	font-size:45px;
+	text-align:left;
+	color:white;
+}
+
+.menu{
+	
+	background-color:#8DA9DE;
+	height:30px;
+	margin-top:5px;
+	padding-top:5px;
+}
+
+.menu a{
+	display:block;
+	text-decoration:none;
+	color:#F7D283;
+	font-size:20px;
+	padding-left:30px;
+	transition-property:transform;
+	transition-duration:1s;	
+}
+
+.menu:hover{
+	
+	transform:scale(1.5);
+}
+
+.banner{
+	margin-top:8px;
+}
+.section{
+	background-color:#F7D283;
+	height:40px;
+	color:white;
+	font-size:25px;
+	padding-top:4px;
+	padding-left:10px;
+	margin-top:3px;
+}
+
+.cake{
+	
+    margin-top:5px;
+	height:410px;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	background-color:#F7D283;
+	padding-bottom:20px;
+	
+	box-shadow:0px 0px 10px #8DA9DE;
+	
+	transition-property:transform;
+	transition-duration:1s;
+}
+
+.cake:hover{
+	transform:rotatey(360deg);
+}
+
+button{
+	border:0px;
+	background-color:#8DA9DE;
+	color:white;
+    font-size:20px;
+	font-weight:bold;
+	transition-property:transform;
+	transition-duration:1s;
+}
+
+button:hover{
+	transform:scale(1.5)
+}
+
+.offer{
+	background-color:#F7D283;
+	height:40px;
+	color:white;
+	font-size:20px;
+	margin-top:5px;
+	padding-top:4px;
+	text-align:center;
+
+	background-image:linear-gradient(to bottom,#FFD700,#8DA9DE);  
+}
+
+.pimage{
+	
+	margin-top:5px;	
+}
+
+.pdet{
+	
+	color:white;
+	background-color:#F7D283;
+	margin-top:5px;
+	height:250px;
+	text-align:justify;
+}
+
+.about p{
+	color:white;
+	text-align:center;
+	background-color:#F7D283;
+     
+}
+
+.about h4{
+	color:white;
+	text-align:center;
+	background-color:#F7D283;
+	height:30px;
+	padding-top:10px;
+}
+
+.about h3{
+	color:white;
+	background-color:#F7D283;
+	text-decoration:underline;
+	height:30px;
+	margin-top:5px;
+	padding-top:5px;
+    text-align:center;
+}
+
+.con{
+	border-style:solid;
+	box-sizing:border-box;
+	height:400px;
+	margin-top:5px;
+	background-color:#F7D283;
+	color:white;
+	
+	padding-top:30px
+}
+
+iframe{
+	
+	border-style:solid;
+	height:200px;
+	width:400px;
+	margin-top:17px;
+	margin-left:-8px;
+	
+}
+
+.login{
+	
+	background-color:#F7D283;
+	color:white;
+	height:200px;
+	text-align:center;
+	margin-top:5px;
+
+}
+
+.login table{
+	
+	margin-top:45px;
+	border-color:#8DA9DE;
+	
+}
+
+input[type="submit"]{
+	
+	background-color:#8DA9DE;
+}
+
+.register{
+	
+	background-color:#F7D283;
+	color:white;
+	height:500px;
+	margin-top:5px;
+	background-image:url("banner1.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.register table{
+	
+	margin-top:10px;
+}
+
+.footer{
+	
+	background-color:#F7D283;
+	height:200px;
+	color:white;
+	font-size:15px;
+	padding-top:50px;
+	margin-top:3px;
+	text-align:center;
+}
+
+/* 
+header footer must be repeated on each and eVERY page
+
+IN CONTACT PAGE- after header and menu.
+
+in grid_12 embeded google map.
+
+grid_6        grid 6
+
+email         conatct form:
+contact       name:
+addresss      Mobile:
+              email
+              feedback:textarea			  
+
+
+Whatsapp-integration
+
+
+Pineapple/Strawberry/ Butterscotch 380
+
+Black Forest/White Forest 400
+
+
+Kulfi Falooda/blueberry/black current 400
+
+Dutch Cream with choco  chips,/Premium chocolate/ Oreo cake 450
+
+Truffle 500
+
+Chocolates strawberry delight 450
+
+Red velvet with cheese frosting, Red velvet with cheese blueberry 500
+
+Rasmalai 550
+
+*/
